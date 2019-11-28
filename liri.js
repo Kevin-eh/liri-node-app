@@ -65,10 +65,14 @@ if (liriChoice === "spotify-this-song") {
     if (err) {
       return console.log("Error occurred: " + err);
     }
+
     data.tracks.items.forEach(item => {
       item.album.artists.forEach(art => {
-        console.log(art.name);
+        console.log("Artist: " + art.name);
       });
+      console.log("Song: " + item.name);
+      console.log("Album: " + item.album.name);
+      console.log("URL: " + item.preview_url);
     });
   });
 }
