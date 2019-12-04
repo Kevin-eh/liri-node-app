@@ -78,4 +78,13 @@ if (liriChoice === "spotify-this-song") {
 }
 
 if (liriChoice === "do-what-it-says") {
+  fs.readFile("random.txt", "utf8", function(err, data) {
+    if (err) {
+      return console.log(err);
+    }
+    var output = data.split(",");
+    for (var i = 0; i < output.length; i++) {
+      console.log(output[i]);
+    }
+  });
 }

@@ -11,3 +11,10 @@
      - provides OMDB information
    - do-what-it-says
      - takes information from a .txt file and runs it
+4. Video: https://ucdBootcampK.tinytake.com/tt/MzkyODQxMV8xMjA1MDI2Ng
+5. https://github.com/Kevin-eh/liri-node-app
+6. Technologies Used
+
+- Node, Axios, Fs, Spotify API, OMDB API.
+
+7. Role: Lead Developer
